@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    
+}
+
+body{
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+    background-color: rgb(71, 33, 106);
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer
+}
+
+.cabeçalho-link a{
+    color: black;
+    font-size: 18px;
+}
+
+.cabeçalho-link a:hover{
+    color: rgb(253, 123, 253);
+    transition: 0.3s all;
+}
+
+
+button{
+    color: rgb(253, 123, 253);
+    background: transparent;
+    border: solid 1px rgb(253, 123, 253);
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(253, 123, 253);
+    color: white;
+    transition: 0.5s;
+}
+
+.container-text{
+    padding: 150px;
+}
+
+.text h3{
+    color: black;
+    font-size:15xp;
+
+}
+
+.text h1{
+    color: black;
+    margin-top: 10px;
+
+}
+
+.text span{
+    color: rgb(253, 123, 253);
+}
+
+.text p{
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+
+}
+
+.redes-sociais a{
+    color: rgb(253, 123, 253);
+    padding: 10px;
+    margin-top: 5px;
+
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+.wrapper-profile-photo{
+    display: inline-table; 
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.wrapper-profile-photo img {
+    border-radius: 90%;
+
+}
+
+.texto p{
+    margin-top: 80px;
+}
+
+
+
