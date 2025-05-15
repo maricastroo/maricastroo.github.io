@@ -22,6 +22,6 @@ Este site é uma página pessoal que reúne informações, imagens e páginas so
 
 ---
 
-Obrigado por visitar!
+Obrigada por visitar!
 
 *maricastroo*
