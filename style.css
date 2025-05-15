@@ -17,7 +17,7 @@ header {
     background-color: #ffffff;
     padding: 50px 20px 40px 20px;
     text-align: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* sombra ajustada */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     position: fixed;
     width: 100%;
     top: 0;
@@ -26,9 +26,10 @@ header {
 
 header h1 {
     font-family: 'Poetsen One', sans-serif;
-    font-size: 3em; /* Aumentado */
+    font-size: 3em; 
     color: #314b6d;
-    margin-bottom: 15px; /* Aumentado para mais espaçamento */
+    margin-bottom: 15px;
+
 }
 
 nav ul {
@@ -36,7 +37,7 @@ nav ul {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 25px; /* Ligeiramente aumentado */
+    gap: 25px; 
 }
 
 nav ul li a {
@@ -59,7 +60,7 @@ nav ul li a:hover {
     box-shadow: none;
     color: white;
     position: relative;
-    margin-top: 200px; /* Aumentado para compensar o novo header */
+    margin-top: 200px; 
 }
 
 #home::before {
