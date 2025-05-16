@@ -8,7 +8,7 @@ Este repositório contém os arquivos do meu site pessoal hospedado no GitHub Pa
 
 ## Sobre
 
-Este site é uma página pessoal que reúne informações, imagens e páginas sobre diversos temas. Ele foi desenvolvido com HTML, CSS e JavaScript e está organizado em pastas para facilitar a manutenção.
+Este site é uma página pessoal que reúne informações sobre mim. Ele foi desenvolvido com HTML, CSS  para a disciplina de Experiência Criativa- 2023, porém é atualizada frequentemente.
 
 ---
 
@@ -18,7 +18,6 @@ Este site é uma página pessoal que reúne informações, imagens e páginas so
 - `pages/` — Páginas adicionais do site
 - `styles/` — Arquivos CSS para estilização
 - `img/` — Imagens usadas no site
-- `script.js` — Script JavaScript para funcionalidades
 
 ---
 
