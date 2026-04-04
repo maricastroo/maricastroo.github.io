@@ -1,25 +1,34 @@
-# Site Pessoal - maricastroo
+# ✨ maricastroo ★
 
-Este repositório contém os arquivos do meu site pessoal hospedado no GitHub Pages.
+Portfólio pessoal desenvolvido com HTML, CSS e JavaScript.
 
-📍 Acesse o site aqui: [https://maricastroo.github.io/](https://maricastroo.github.io/)
-
----
-
-## Sobre
-
-Este site é uma página pessoal que reúne informações sobre mim. Ele foi desenvolvido com HTML, CSS e JavaScript.
+✦ Acesse em: [maricastroo.github.io](https://maricastroo.github.io/)
 
 ---
 
-## Estrutura do repositório
+### Sobre
 
-- `index.html` — Página principal do site
-- `style.css` — Arquivos CSS para estilização
-- `img/` — Imagens usadas no site
+Site criado para reunir meus projetos, habilidades e formas de contato.
 
 ---
 
-Obrigada por visitar!
+### Estrutura
 
-*maricastroo*
+```
+├── index.html       página principal
+├── style.css        estilização
+├── script.js        interações e modal
+└── img/             imagens
+```
+
+---
+
+### Contato
+
+- GitHub: [github.com/maricastroo](https://github.com/maricastroo)
+- LinkedIn: [linkedin.com/in/mariana-castro1](https://www.linkedin.com/in/mariana-castro1)
+- Instagram: [@kkjmari](https://www.instagram.com/kkjmari/)
+
+---
+
+por Mariana ★
