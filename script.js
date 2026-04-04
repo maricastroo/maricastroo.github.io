@@ -44,16 +44,33 @@ const mTitle     = document.getElementById('projModalTitle');
 const mMeta      = document.getElementById('projModalMeta');
 const mDesc      = document.getElementById('projModalDesc');
 const mLink      = document.getElementById('projModalLink');
+const mLink2     = document.getElementById('projModalLink2');
 const mTag       = document.getElementById('projModalTag');
 const mImg       = document.getElementById('projModalImg');
 const mImgSvg    = mImg.querySelector('svg');
 
 function openModal(row) {
-  mTitle.textContent = row.dataset.name || '';
-  mMeta.textContent  = row.dataset.meta || '';
-  mDesc.textContent  = row.dataset.desc || '';
-  mTag.textContent   = row.dataset.meta || '';
-  mLink.href         = row.dataset.link || '#';
+  mTitle.textContent = row.dataset.name  || '';
+  mMeta.textContent  = row.dataset.meta  || '';
+  mDesc.textContent  = row.dataset.desc  || '';
+  mTag.textContent   = row.dataset.meta  || '';
+
+  if (row.dataset.link) {
+    mLink.href        = row.dataset.link;
+    mLink.textContent = (row.dataset.label || 'Ver Projeto') + ' ↗';
+    mLink.style.display = '';
+  } else {
+    mLink.style.display = 'none';
+  }
+
+  if (row.dataset.link2) {
+    mLink2.href        = row.dataset.link2;
+    mLink2.textContent = (row.dataset.label2 || 'GitHub') + ' ↗';
+    mLink2.style.display = '';
+  } else {
+    mLink2.style.display = 'none';
+  }
+
   if (row.dataset.img) {
     mImg.style.backgroundImage    = `url('${row.dataset.img}')`;
     mImg.style.backgroundSize     = 'cover';
@@ -63,18 +80,9 @@ function openModal(row) {
     mImg.style.backgroundImage = '';
     if (mImgSvg) mImgSvg.style.display = '';
   }
+
   modal.classList.add('open');
   document.body.style.overflow = 'hidden';
-}
-
-const mLink2 = document.getElementById('projModalLink2');
-if (mLink2) {
-  if (row.dataset.link2) {
-    mLink2.href = row.dataset.link2;
-    mLink2.style.display = '';
-  } else {
-    mLink2.style.display = 'none';
-  }
 }
 
 function closeModal() {
@@ -89,7 +97,6 @@ document.querySelectorAll('.proj-badge').forEach(badge => {
     if (row) openModal(row);
   });
 });
-
 
 document.querySelectorAll('.proj-row').forEach(row => {
   if (row.dataset.img) {
