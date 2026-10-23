@@ -8,7 +8,7 @@ Portfólio pessoal desenvolvido com HTML, CSS e JavaScript.
 
 ### Sobre
 
-Site criado para reunir meus projetos, habilidades e formas de contato.
+Site criado para reunir meus projetos, experiência, habilidades e formas de contato.
 
 ---
 
@@ -18,7 +18,9 @@ Site criado para reunir meus projetos, habilidades e formas de contato.
 ├── index.html       página principal
 ├── style.css        estilização
 ├── script.js        interações e modal
-└── img/             imagens
+├── img/             imagens (inclui og-preview.jpg, a prévia do link)
+├── media/           vídeos dos projetos
+└── curriculo/       PDF do currículo (versão sem telefone)
 ```
 
 ---
