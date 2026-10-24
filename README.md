@@ -25,6 +25,14 @@ Site criado para reunir meus projetos, experiência, habilidades e formas de con
 
 ---
 
+### Dica: cache
+
+Ao alterar o `style.css` ou o `script.js`, troque o número em `?v=...` nos links do `index.html`
+(ex.: `style.css?v=20261024` → `style.css?v=20261101`). Assim quem já visitou o site recebe a versão nova
+em vez da guardada no navegador.
+
+---
+
 ### Contato
 
 - GitHub: [github.com/maricastroo](https://github.com/maricastroo)
